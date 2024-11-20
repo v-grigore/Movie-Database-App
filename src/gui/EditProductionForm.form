@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.EditProductionForm">
+  <grid id="27dc6" binding="panel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1318" height="576"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="b7318" binding="displayPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="10" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="20">
+        <margin top="50" left="50" bottom="50" right="50"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <font size="14"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8e8ba" class="javax.swing.JLabel" binding="titleLabel" custom-create="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Title:"/>
+            </properties>
+          </component>
+          <component id="5a929" class="javax.swing.JTextField" binding="titleTextField" custom-create="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="56b35" class="javax.swing.JLabel" binding="directorsLabel" custom-create="true">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="65" height="-1"/>
+                <maximum-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Directors:"/>
+            </properties>
+          </component>
+          <component id="1796d" class="javax.swing.JButton" binding="cardButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="5" col-span="3" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="140" height="200"/>
+                <preferred-size width="140" height="200"/>
+                <maximum-size width="140" height="200"/>
+              </grid>
+            </constraints>
+            <properties>
+              <contentAreaFilled value="false"/>
+              <focusPainted value="false"/>
+              <icon value="test_card.jpg"/>
+            </properties>
+          </component>
+          <component id="58b35" class="javax.swing.JScrollBar" binding="directorsScrollBar" custom-create="true">
+            <constraints>
+              <grid row="1" column="7" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="14" height="99"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+          <component id="590d8" class="javax.swing.JLabel" binding="actorsLabel" custom-create="true">
+            <constraints>
+              <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="47" height="-1"/>
+                <maximum-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Actors:"/>
+            </properties>
+          </component>
+          <component id="4e150" class="javax.swing.JLabel" binding="typeLabel" custom-create="true">
+            <constraints>
+              <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Type:"/>
+            </properties>
+          </component>
+          <component id="d2a7" class="javax.swing.JScrollBar" binding="actorsScrollBar" custom-create="true">
+            <constraints>
+              <grid row="1" column="16" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="14" height="99"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+          <component id="5663" class="javax.swing.JLabel" binding="genresLabel" custom-create="true">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Genres:"/>
+            </properties>
+          </component>
+          <scrollpane id="26678" binding="genresScrollPane" custom-create="true">
+            <constraints>
+              <grid row="3" column="4" row-span="3" col-span="3" vsize-policy="3" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="100"/>
+                <preferred-size width="-1" height="100"/>
+                <maximum-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="947"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="c8403" class="javax.swing.JTextArea" binding="genresTextArea" custom-create="true">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                  <minimumSize width="257" height="40"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="947" class="javax.swing.JScrollBar" binding="genresScrollBar" custom-create="true">
+            <constraints>
+              <grid row="3" column="7" row-span="3" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+          <component id="f05a7" class="javax.swing.JLabel" binding="plotLabel" custom-create="true">
+            <constraints>
+              <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Plot:"/>
+            </properties>
+          </component>
+          <scrollpane id="a637c" binding="plotScrollPane" custom-create="true">
+            <constraints>
+              <grid row="3" column="9" row-span="3" col-span="7" vsize-policy="3" hsize-policy="7" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="480" height="100"/>
+                <preferred-size width="480" height="100"/>
+                <maximum-size width="480" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="4aea9"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7b5c5" class="javax.swing.JTextArea" binding="plotTextArea" custom-create="true">
+                <constraints/>
+                <properties>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                  <minimumSize width="257" height="40"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="4aea9" class="javax.swing.JScrollBar" binding="plotScrollBar" custom-create="true">
+            <constraints>
+              <grid row="3" column="16" row-span="3" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+          <component id="d2c9e" class="javax.swing.JLabel" binding="releaseYearLabel" custom-create="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Release Year:"/>
+            </properties>
+          </component>
+          <vspacer id="1c5c">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="23799" class="javax.swing.JSpinner" binding="releaseYearSpinner" custom-create="true">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="65860" class="javax.swing.JButton" binding="saveButton" custom-create="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-13447886"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-1"/>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <vspacer id="68334">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="f548d" class="javax.swing.JButton" binding="cancelButton" custom-create="true">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-2894893"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+          <component id="1c088" class="javax.swing.JLabel" binding="durationLabel" custom-create="true">
+            <constraints>
+              <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Duration:"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="7a325" class="javax.swing.JSpinner" binding="durationSpinner" custom-create="true">
+            <constraints>
+              <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="64229" class="javax.swing.JLabel" binding="episodesLabel" custom-create="true">
+            <constraints>
+              <grid row="6" column="6" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Episodes:"/>
+            </properties>
+          </component>
+          <scrollpane id="c4085" binding="seasonScrollPane" custom-create="true">
+            <constraints>
+              <grid row="6" column="7" row-span="2" col-span="4" vsize-policy="7" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="-1"/>
+                <maximum-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="347a7"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="58a35" class="javax.swing.JList" binding="seasonList" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <model>
+                    <item value="Season 1"/>
+                  </model>
+                  <selectionMode value="2"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="edcb3" binding="episodesScrollPane" custom-create="true">
+            <constraints>
+              <grid row="6" column="15" row-span="2" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="2d096"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="26b62" class="javax.swing.JTextArea" binding="episodesTextArea" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="2d096" class="javax.swing.JScrollBar" binding="episodesScrollBar" custom-create="true">
+            <constraints>
+              <grid row="6" column="16" row-span="2" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+          <component id="347a7" class="javax.swing.JScrollBar" binding="seasonScrollBar" custom-create="true">
+            <constraints>
+              <grid row="6" column="11" row-span="2" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+          <scrollpane id="eaa91" binding="directorsScrollPane" custom-create="true">
+            <constraints>
+              <grid row="1" column="4" row-span="2" col-span="3" vsize-policy="0" hsize-policy="7" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="350" height="100"/>
+                <preferred-size width="350" height="100"/>
+                <maximum-size width="350" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="58b35"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="7d222" class="javax.swing.JTextArea" binding="directorsTextArea" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="991b2" binding="actorsScrollPane" custom-create="true">
+            <constraints>
+              <grid row="1" column="9" row-span="2" col-span="7" vsize-policy="0" hsize-policy="7" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="480" height="100"/>
+                <preferred-size width="480" height="100"/>
+                <maximum-size width="480" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="d2a7"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="aa7c6" class="javax.swing.JTextArea" binding="actorsTextArea" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <vspacer id="b1816">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="2" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="8503d">
+            <constraints>
+              <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="3f71f">
+            <constraints>
+              <grid row="4" column="3" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="1cea8">
+            <constraints>
+              <grid row="4" column="8" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="5482d" class="javax.swing.JRadioButton" binding="movieButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Movie"/>
+            </properties>
+          </component>
+          <component id="6252f" class="javax.swing.JRadioButton" binding="seriesButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="10" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Series"/>
+            </properties>
+          </component>
+          <hspacer id="e13a6">
+            <constraints>
+              <grid row="0" column="13" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="87224" class="javax.swing.JLabel" binding="seasonLabel" custom-create="true">
+            <constraints>
+              <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+              <text value="Season name:"/>
+            </properties>
+          </component>
+          <component id="18c7b" class="javax.swing.JTextField" binding="seasonTextField" custom-create="true">
+            <constraints>
+              <grid row="8" column="7" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <font size="14"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="828bc" class="javax.swing.JButton" binding="addButton" custom-create="true">
+            <constraints>
+              <grid row="8" column="12" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="32" height="32"/>
+                <preferred-size width="32" height="32"/>
+                <maximum-size width="32" height="32"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <icon value="plus_icon_32x.png"/>
+            </properties>
+          </component>
+          <component id="ef297" class="javax.swing.JButton" binding="removeButton" custom-create="true">
+            <constraints>
+              <grid row="8" column="13" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="32" height="32"/>
+                <preferred-size width="32" height="32"/>
+                <maximum-size width="32" height="32"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <icon value="minus_icon_32x.png"/>
+            </properties>
+          </component>
+          <hspacer id="655">
+            <constraints>
+              <grid row="8" column="15" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <scrollpane id="2a92" binding="durationScrollPane" custom-create="true">
+            <constraints>
+              <grid row="6" column="12" row-span="2" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="8c8ae"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f4389" class="javax.swing.JTextArea" binding="durationTextArea" custom-create="true">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font size="14"/>
+                  <foreground color="-16777216"/>
+                  <lineWrap value="true"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="8c8ae" class="javax.swing.JScrollBar" binding="durationScrollBar" custom-create="true">
+            <constraints>
+              <grid row="6" column="14" row-span="2" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-8355712"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

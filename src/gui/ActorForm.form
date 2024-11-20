@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.ActorForm">
+  <grid id="27dc6" binding="panel" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="645" height="611"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <minimumSize width="563" height="0"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="51312" class="javax.swing.JLabel" binding="photo" custom-create="true">
+        <constraints>
+          <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="test_actor.png"/>
+        </properties>
+      </component>
+      <hspacer id="dcc83">
+        <constraints>
+          <grid row="0" column="4" row-span="2" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="7a558" class="javax.swing.JTextPane" binding="biography" custom-create="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="2" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-1"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font size="14"/>
+          <foreground color="-16777216"/>
+          <requestFocusEnabled value="false"/>
+          <selectionEnd value="0"/>
+          <selectionStart value="0"/>
+          <verifyInputWhenFocusTarget value="false"/>
+        </properties>
+      </component>
+      <component id="d1b7e" class="javax.swing.JButton" binding="favoriteButton" custom-create="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <font size="14"/>
+          <foreground color="-16121"/>
+          <icon value="favorites_icon_gold_24x.png"/>
+          <rolloverEnabled value="true"/>
+          <text value="Add to favorites"/>
+        </properties>
+      </component>
+      <hspacer id="b4893">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="54761" class="javax.swing.JButton" binding="favoriteRemoveButton" custom-create="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <borderPainted value="false"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <font size="14"/>
+          <foreground color="-65536"/>
+          <icon value="x_icon_24x.png"/>
+          <text value="Remove from favorites"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <grid id="40e70" binding="innerPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a63ff" class="javax.swing.JButton" binding="nameButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="false"/>
+              <font size="16"/>
+              <foreground color="-16777216"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="2"/>
+              <iconTextGap value="0"/>
+              <text value="Title"/>
+            </properties>
+          </component>
+          <component id="afb75" class="javax.swing.JButton" binding="editButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-14774017"/>
+              <icon value="edit_icon_24x.png"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="4e927" class="javax.swing.JButton" binding="deleteButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-14774017"/>
+              <icon value="delete_icon_24x.png"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <hspacer id="80df0">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

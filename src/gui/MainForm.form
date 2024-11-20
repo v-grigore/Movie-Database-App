@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.MainForm">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="2" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="12">
+    <margin top="12" left="120" bottom="12" right="120"/>
+    <constraints>
+      <xy x="20" y="27" width="975" height="465"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="true"/>
+      <background color="-16777216"/>
+      <preferredSize width="1024" height="720"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f6db2" binding="searchPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="7" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12566464"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f8738" class="javax.swing.JButton" binding="searchButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14341069"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusable value="false"/>
+              <icon value="search_icon_32x.png"/>
+              <selected value="true"/>
+            </properties>
+          </component>
+          <component id="510d3" class="javax.swing.JTextField" binding="searchTextField" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <alignmentY value="0.5"/>
+              <autoscrolls value="false"/>
+              <background color="-12566464"/>
+              <caretColor color="-1"/>
+              <enabled value="true"/>
+              <focusable value="true"/>
+              <foreground color="-8355712"/>
+              <margin top="2" left="6" bottom="2" right="6"/>
+              <requestFocusEnabled value="true"/>
+              <text value="Search IMDb"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="c09bc" class="javax.swing.JButton" binding="menuButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="false"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="false"/>
+          <font/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="2"/>
+          <icon value="menu_icon_32x.png"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="true"/>
+          <rolloverEnabled value="true"/>
+          <selected value="false"/>
+          <text value="Menu"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="2bc71" class="javax.swing.JButton" binding="favoritesButton" custom-create="true">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="false"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="false"/>
+          <font/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="2"/>
+          <horizontalTextPosition value="11"/>
+          <icon value="favorites_icon_32x.png"/>
+          <iconTextGap value="4"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value="Favorites"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="f0f3b" class="javax.swing.JButton" binding="profileButton" custom-create="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="false"/>
+          <enabled value="true"/>
+          <focusPainted value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <focusable value="false"/>
+          <font/>
+          <foreground color="-1"/>
+          <horizontalAlignment value="2"/>
+          <icon value="profile_icon_32x.png"/>
+          <opaque value="true"/>
+          <selected value="false"/>
+          <text value="Profile"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="d4e94" class="javax.swing.JButton" binding="logo" custom-create="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <maximum-size width="-1" height="40"/>
+          </grid>
+        </constraints>
+        <properties>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
+          <icon value="logo.png"/>
+        </properties>
+      </component>
+      <grid id="5608e" binding="displayPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="3" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="-1">
+        <margin top="12" left="12" bottom="12" right="12"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="cbba7" binding="scrollPane" custom-create="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <horizontalScrollBar value="f7f07"/>
+              <horizontalScrollBarPolicy value="30"/>
+              <verticalScrollBar value="f6660"/>
+              <verticalScrollBarPolicy value="20"/>
+              <visible value="true"/>
+            </properties>
+            <border type="line">
+              <font/>
+              <title-color color="-5391673"/>
+              <color color="-16777216"/>
+            </border>
+            <children>
+              <grid id="ee4f2" binding="view" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="12" left="12" bottom="12" right="12"/>
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </scrollpane>
+          <component id="f6660" class="javax.swing.JScrollBar" binding="verticalScrollBar" custom-create="true">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <blockIncrement value="-1"/>
+              <foreground color="-8355712"/>
+              <unitIncrement value="75"/>
+              <verifyInputWhenFocusTarget value="false"/>
+            </properties>
+          </component>
+          <component id="f7f07" class="javax.swing.JScrollBar" binding="horizontalScrollBar" custom-create="true">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="3" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <blockIncrement value="-1"/>
+              <foreground color="-8355712"/>
+              <orientation value="0"/>
+              <unitIncrement value="75"/>
+              <verifyInputWhenFocusTarget value="false"/>
+            </properties>
+          </component>
+          <component id="f2e67" class="javax.swing.JButton" binding="switchOrderButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="40" height="40"/>
+                <preferred-size width="40" height="40"/>
+                <maximum-size width="40" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <horizontalAlignment value="0"/>
+              <icon value="swap_icon_32x.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4c9bb" class="javax.swing.JLabel" binding="sortByLabel" custom-create="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <foreground color="-16777216"/>
+              <text value="Sort by"/>
+            </properties>
+          </component>
+          <hspacer id="7e70c">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="9d9d0" class="javax.swing.JButton" binding="sortMenuButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="16"/>
+              <foreground color="-14774017"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="2"/>
+              <icon value="arrow_icon_blue_16x.png"/>
+              <iconTextGap value="10"/>
+              <text value="Default"/>
+            </properties>
+          </component>
+          <component id="7f295" class="javax.swing.JButton" binding="productionsButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="true"/>
+              <enabled value="false"/>
+              <focusPainted value="false"/>
+              <font size="16"/>
+              <foreground color="-16777216"/>
+              <opaque value="true"/>
+              <text value="Productions"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="8a706" class="javax.swing.JButton" binding="actorsButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="16"/>
+              <foreground color="-16777216"/>
+              <text value="Actors"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="715f3">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="12" height="-1"/>
+            <preferred-size width="12" height="-1"/>
+            <maximum-size width="12" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="beff">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="12" height="-1"/>
+            <preferred-size width="12" height="-1"/>
+            <maximum-size width="12" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

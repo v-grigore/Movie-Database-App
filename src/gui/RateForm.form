@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.RateForm">
+  <grid id="27dc6" binding="panel" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="28" width="500" height="442"/>
+    </constraints>
+    <properties>
+      <opaque value="false"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="c78a7" binding="displayPanel" custom-create="true" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="0" vgap="10">
+        <margin top="0" left="50" bottom="50" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <font size="14"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="4bbf1" binding="starPanel" custom-create="true" layout-manager="FlowLayout" hgap="0" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <maximum-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <hspacer id="208c4">
+                <constraints/>
+              </hspacer>
+            </children>
+          </grid>
+          <component id="a8220" class="javax.swing.JButton" binding="rateButton" custom-create="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12566464"/>
+              <borderPainted value="false"/>
+              <enabled value="false"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-8355712"/>
+              <text value="Rate"/>
+            </properties>
+          </component>
+          <component id="dbfa6" class="javax.swing.JLabel" binding="title" custom-create="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <foreground color="-1"/>
+              <text value="Title"/>
+            </properties>
+          </component>
+          <component id="6852e" class="javax.swing.JLabel" binding="rateThisLabel" custom-create="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="14"/>
+              <foreground color="-16121"/>
+              <text value="RATE THIS"/>
+            </properties>
+          </component>
+          <component id="fc0cb" class="javax.swing.JLabel" binding="ratingLabel" custom-create="true">
+            <constraints>
+              <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <foreground color="-1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <icon value="star_icon_full_blue_128x.png"/>
+              <text value="?"/>
+            </properties>
+          </component>
+          <component id="b1853" class="javax.swing.JButton" binding="removeRatingButton" custom-create="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <maximum-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <font size="14"/>
+              <foreground color="-14774017"/>
+              <text value="Remove rating"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="3fb2f" class="javax.swing.JTextArea" binding="comment" custom-create="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="90"/>
+                <maximum-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12566464"/>
+              <caretColor color="-1"/>
+              <font size="14"/>
+              <foreground color="-1"/>
+              <lineWrap value="true"/>
+              <margin top="4" left="4" bottom="4" right="4"/>
+              <rows value="3"/>
+              <visible value="false"/>
+            </properties>
+          </component>
+          <component id="c4759" class="javax.swing.JButton" binding="exitButton" custom-create="true">
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <borderPainted value="false"/>
+              <focusPainted value="false"/>
+              <icon value="x_icon_white_32x.png"/>
+            </properties>
+          </component>
+          <hspacer id="179bf">
+            <constraints>
+              <grid row="3" column="1" row-span="6" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="-1"/>
+                <preferred-size width="50" height="-1"/>
+                <maximum-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="88c3d">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="9240f">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="50"/>
+                <preferred-size width="-1" height="50"/>
+                <maximum-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
